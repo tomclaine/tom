@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Trang chi tiet</title>
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://kit.fontawesome.com/2669f91611.js" crossorigin="anonymous"></script>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta charset="utf-8">
+</head>
+<body>
+	<header>
+		<div class="menu">
+			<a href="index.html"><img src="images/logo.jpg"></a>
+			<ul class="nav-links">
+				<li class="under"><a href="index.html">Trang chủ</a></li>
+				<li class="under"><a href="danhmuc.html">Áo</a>
+					<div class="sub-menu">
+						<ul>
+							<li><a href="">Áo sơ mi</a>
+							</li>
+							<li><a href="">Polo & T-Shirts</a>
+							</li>
+						</ul>
+					</div>
+				</li>
+				<li class="under"><a href="#">Quần</a>
+					<div class="sub-menu">
+						<ul>
+							<li><a href="">Quần kaki</a></li>
+							<li><a href="">Quần jeans</a></li>
+							<li><a href="">Quần shorts</a></li>
+						</ul>
+					</div>	
+				</li>
+				<li class="under"><a href="#">About us</a></li>
+				<li class="dropdown">
+					<a href="" class="dropdown-toggle" data-toggle="dropdown" id="dropdownMenuButton"><i class="fa fa-search"></i></a>
+					<form action="#" method="get" class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+						<div class="input-group">
+							<input type="text" class="form-control" placeholder="keyword..." value="" name="search">
+                			<div class="input-group-append">
+                    			<button class="btn btn-secondary" type="submit" value="search"> 
+                        		<i class="fa fa-search"></i>
+                    			</button>
+                			</div>
+                		</div>
+                	</form>
+				</li>
+				<li class="under"><a href="dangky.html">Đăng ký</a></li>
+				<li class="under"><a href="dangnhap.html">Đăng nhập</a></li>
+				<li><a href="giohang.html"><i class="fa fa-shopping-cart"></i></a></li>
+			</ul>
+			<label for="nav-mobile-input" class="nav-btn">
+				<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars" class="svg-inline--fa fa-bars fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"></path></svg>
+			</label>
+			<input type="checkbox" class="nav-input" id="nav-mobile-input" hidden name="">
+			<label for="nav-mobile-input" class="nav-overlay"></label>
+			<div class="nav-mobile">
+				<label for="nav-mobile-input" class="nav-mobile-close">
+					<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="times" class="svg-inline--fa fa-times fa-w-11" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 352 512"><path fill="currentColor" d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"></path></svg>
+				</label>
+				<ul class="nav-mobile-links">
+					<h3>HKH Shop</h3>
+					<li><input type="text" name="" placeholder="key word..."><i class="fa fa-search"></i></li>
+					<li><a href="">Đăng kí</a></li>
+					<li><a href="">Đăng nhập</a></li>
+					<li><a href="">Trang chủ</a></li>
+					<li><a href="">Áo</a></li>
+					<li><a href="">Quần</a></li>
+					<li><a href="">About Us</a></li>
+					<li><a href="">Giỏ hàng</a></li>
+				</ul>
+			</div>
+		</div>
+
+	</header>
+		<div class="content-ct">
+			<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-5">
+					<a href=""><img src="images/new1.jpg"></a>
+				</div>
+				<div class="col-md-7">
+					<div class="container-fluid">
+					<h3>Sơ mi</h3>
+					<p>giá</p>
+					<div class="row">
+						<div class="col-md-3">
+							size 
+						</div>
+						<div class="col-md-9">
+							<a href="">S</a><a href="">M</a><a href="">L</a><a href="">XL</a>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-3">
+							màu 
+						</div>
+						<div class="col-md-9">
+							<a href="">Đen</a><a href="">Trắng</a><a href="">Đỏ</a><a href="">Xanh</a>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-3">
+							Số lượng 
+						</div>
+						<div class="col-md-9">
+							<a href="" class="symbol">-</a><input type="number" name=""><a href="" class="symbol">+</a>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-auto">
+							<a href="ttmuahang.html" class="mua">Mua ngay</a>
+						</div>
+						<div class="col-auto">
+							<a href="" class="cart">Thêm vào giỏ hàng</a>
+						</div>
+					</div>
+				</div>
+				</div>
+			</div>
+		</div>
+		<div class="content-mt">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-8">
+						<p><b>Hướng dẫn chọn sản phẩm theo chiều cao, cân nặng và các thông số cơ thể:</b></p>
+						<img src="images/mota1.png">
+						<img src="images/mota2.png">
+						<img src="images/mota3.jpg">
+						<img src="images/mota4.jpg">
+					</div>
+					<div class="col-md-3">
+						<div class="container-fluid">
+							<p><b>Sản phẩm liên quan</b></p>
+							<div class="sp col-10">
+								<a href="">
+									<img src="images/new1.jpg">
+								</a><br><br>
+								<a href="" class="tensp"><b>So mi</b></a>
+								<p>gia</p>
+							</div>
+							<div class="sp col-10">
+								<a href="">
+									<img src="images/new1.jpg">
+								</a><br><br>
+								<a href="" class="tensp"><b>So mi</b></a>
+								<p>gia</p>
+							</div>
+							<div class="sp col-10">
+								<a href="">
+									<img src="images/new1.jpg">
+								</a><br><br>
+								<a href="" class="tensp"><b>So mi</b></a>
+								<p>gia</p>
+							</div>
+							<div class="sp col-10">
+								<a href="">
+									<img src="images/new1.jpg">
+								</a><br><br>
+								<a href="" class="tensp"><b>So mi</b></a>
+								<p>gia</p>
+							</div>
+							<div class="sp col-10">
+								<a href="">
+									<img src="images/new1.jpg">
+								</a><br><br>
+								<a href="" class="tensp"><b>So mi</b></a>
+								<p>gia</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+			<div class="content-dm1">
+		<div class="container">
+			<h1>SẢN PHẨM BẠN ĐÃ XEM</h1>
+			<div class="row">
+				<div class="col-md-3 col-5">
+					<a href="" class="hover_img">
+						<img src="images/SM9.1.jpg">
+						<img src="images/SM9.2.jpg" class="hide">
+					</a><br><br>
+					<a href="" class="tensp"><b>Sơ mi</b></a>
+					<p>giá</p>
+				</div>
+				<div class="col-md-3 col-5">
+					<a href="" class="hover_img">
+						<img src="images/SM9.1.jpg">
+						<img src="images/SM9.2.jpg" class="hide">
+					</a><br><br>
+					<a href="" class="tensp"><b>Sơ mi</b></a>
+					<p>giá</p>
+				</div>
+				<div class="col-md-3 col-5">
+					<a href="" class="hover_img">
+						<img src="images/SM9.1.jpg">
+						<img src="images/SM9.2.jpg" class="hide">
+					</a><br><br>
+					<a href="" class="tensp"><b>Sơ mi</b></a>
+					<p>giá</p>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+		<div class="content1">
+		<h1>THEO DÕI CHÚNG TÔI TRÊN MẠNG XÃ HỘI</h1>
+		<div class="content1__social-list">
+			<a href=""><i class="fa fa-facebook fa-2x"></i></a>
+			<a href=""><i class="fa fa-instagram fa-2x"></i></a>
+			<a href=""><i class="fa fa-youtube fa-2x"></i></a>
+			<a href=""><i class="fab fa-tiktok fa-2x"></i></a>
+		</div>
+	</div>
+	<div class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md">
+					<i class="fas fa-truck fa-4x"></i><br><br>
+					<p><b>GIAO HÀNG TOÀN QUỐC<br>Bất kể giá trị đơn hàng</b></p>
+				</div>
+				<div class="col-md">
+					<i class="fas fa-box fa-4x"></i><br><br>
+					<p><b>ĐỔI HÀNG DỄ DÀNG<br>Trong vòng 3 ngày</b></p>
+				</div>
+				<div class="col-md">
+					<i class="fas fa-truck fa-4x"></i><br><br>
+					<p><b>HOTLINE HỖ TRỢ<br>0943.98.1257</b></p>
+				</div>
+			</div>
+			<div class="us">
+				<p><b>CÔNG TY TNHH HHK VIỆT NAM</b> tại Hà Nội</p>
+				<p><b>HOTLINE:</b> 09.43.98.1257</p>
+				<p><b>Địa chỉ:</b> Số 19, Nguyễn Trãi, Hà Nội</p>
+				<p><a href=""><img src="images/logo1.jpg"></a></p>
+			</div>
+		</div>
+	</div>
+	<script src="bootstrap/js/jquery.min.js"></script>
+	<script src="bootstrap/js/popper.min.js"></script>
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>

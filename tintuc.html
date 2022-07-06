@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Danh muc</title>
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://kit.fontawesome.com/2669f91611.js" crossorigin="anonymous"></script>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta charset="utf-8">
+</head>
+<body>
+	<header>
+		<div class="menu">
+			<a href="index.html"><img src="images/logo.jpg"></a>
+			<ul class="nav-links">
+				<li class="under"><a href="index.html">Trang chủ</a></li>
+				<li class="under"><a href="danhmuc.html">Áo</a>
+					<div class="sub-menu">
+						<ul>
+							<li><a href="">Áo sơ mi</a>
+							</li>
+							<li><a href="">Polo & T-Shirts</a>
+							</li>
+						</ul>
+					</div>
+				</li>
+				<li class="under"><a href="#">Quần</a>
+					<div class="sub-menu">
+						<ul>
+							<li><a href="">Quần kaki</a></li>
+							<li><a href="">Quần jeans</a></li>
+							<li><a href="">Quần shorts</a></li>
+						</ul>
+					</div>	
+				</li>
+				<li class="under"><a href="#">About us</a></li>
+				<li class="dropdown">
+					<a href="" class="dropdown-toggle" data-toggle="dropdown" id="dropdownMenuButton"><i class="fa fa-search"></i></a>
+					<form action="#" method="get" class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+						<div class="input-group">
+							<input type="text" class="form-control" placeholder="keyword..." value="" name="search">
+                			<div class="input-group-append">
+                    			<button class="btn btn-secondary" type="submit" value="search"> 
+                        		<i class="fa fa-search"></i>
+                    			</button>
+                			</div>
+                		</div>
+                	</form>
+				</li>
+				<li class="under"><a href="dangky.html">Đăng ký</a></li>
+				<li class="under"><a href="dangnhap.html">Đăng nhập</a></li>
+				<li><a href="giohang.html"><i class="fa fa-shopping-cart"></i></a></li>
+			</ul>
+			<label for="nav-mobile-input" class="nav-btn">
+				<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars" class="svg-inline--fa fa-bars fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"></path></svg>
+			</label>
+			<input type="checkbox" class="nav-input" id="nav-mobile-input" hidden name="">
+			<label for="nav-mobile-input" class="nav-overlay"></label>
+			<div class="nav-mobile">
+				<label for="nav-mobile-input" class="nav-mobile-close">
+					<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="times" class="svg-inline--fa fa-times fa-w-11" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 352 512"><path fill="currentColor" d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"></path></svg>
+				</label>
+				<ul class="nav-mobile-links">
+					<h3>HKH Shop</h3>
+					<li><input type="text" name="" placeholder="key word..."><i class="fa fa-search"></i></li>
+					<li><a href="">Đăng kí</a></li>
+					<li><a href="">Đăng nhập</a></li>
+					<li><a href="">Trang chủ</a></li>
+					<li><a href="">Áo</a></li>
+					<li><a href="">Quần</a></li>
+					<li><a href="">About Us</a></li>
+					<li><a href="">Giỏ hàng</a></li>
+				</ul>
+			</div>
+		</div>
+	</header>
+	<div class="news">
+		<div class="content-news">
+			<h5>POLIDO X KENH14: COLOR BLOCK - THÊM SẮC MÀU CHO GIÁNG SINH TƯƠI TRẺ VÀ MỘT NĂM MỚI MAY MẮN</h5>
+			<p>Mang tinh thần "smart casual" - thời trang tối giản và đầy cảm hứng mà Polido theo đuổi hơn 4 năm qua, thêm một chút "chơi" với khối màu sắc "color block", hãy tự tin F5 bản thân trong những buổi gặp gỡ sắp tới cùng bạn bè gia đình và đồng nghiệp sắp tới, cùng xem Giáng sinh và năm mới này các anh chàng Polido lựa chọn gì nhé:</p>
+			<img src="images/image-news.jpg">
+			<img src="images/image-news1.jpg">
+			<img src="images/image-news2.jpg">
+			<img src="images/image-news3.jpg">
+			<p>Nếu bạn đã quen với những màu sắc trầm, hãy thử "phá cách" chút với các gam màu đỏ-xanh-vàng của Noel và năm mới</p>
+			<img src="images/image-news4.jpg">
+			<img src="images/image-news6.jpg">
+			<p>Áo cổ tròn nhiều màu là điểm nhấn không thể thiếu, cùng với phụ kiện: Giày sneakers, balo, vòng cổ, mũ tạo nên sự cá tính, tự tin, trẻ trung, năng động và là một tổng thể hoàn hảo cho những buổi gặp gỡ cuối năm</p>
+			<img src="images/image-news7.jpg">
+			<p><b>1. Casual style trẻ trung mà lịch lãm
+			</b></p>
+			<p>Với những Items sẵn có trong tủ đồ của bạn như áo Bomber, len cao cổ, áo sơmi chất liệu kaki hoặc kẻ, quần jean hay jean rách, quần âu và màu sắc tối giản như ghi, nâu - be, rêu-xám…… chỉ cần kết hợp layering và màu sắc hài hoà sẽ cho bạn những set đồ trẻ trung mà không kém lịch lãm, trưởng thành.</p>
+			<img src="images/image-news8.jpg">
+			<img src="images/image-news9.jpg">
+			<img src="images/image-news10.jpg">
+			<p><b>2. Sporty năng động</b></p>
+			<p>Lựa chọn Hoodie gió 2 lớp, sneaker cùng chiếc quần Jean hay Jogger là lên tinh thần luôn một set đồ năng động và cá tính</p>
+			<img src="images/image-news11.jpg">
+			<img src="images/image-news12.jpg">
+			<img src="images/image-news13.jpg"><br><br>
+			<p>Đừng bỏ lỡ ưu đãi lớn nhất trong năm của Polido nhé:<br>
+				- Giảm tới 40% cho toàn bộ sản phẩm trong hệ thống cửa hàng Polido Bắc - Nam.<br>
+				- Giảm 20% tất cả các phụ kiện cho outfit của bạn thêm hoàn chỉnh hơn.<br>
+				- Thời gian áp dụng: 28/12/2020 - 3/1/2021.<br>
+				- Xem thêm các sản phẩm tại: Website: https://polido.vn.</p>
+		</div>
+		<div class="category-news">
+			<h5>DANH MỤC TIN TỨC</h5><br>
+			<h5>TIN MỚI</h5><br>
+			<div class="chitiet">
+				<a href="">
+				<img src="images/demo1.jpg">
+				<p><b>TUYỂN DỤNG: NHÂN VIÊN BÁN HÀNG</b></p>
+			</a>
+			</div>
+			<div class="chitiet">
+				<a href="">
+				<img src="images/demo2.jpg">
+				<p><b>TUYỂN DỤNG: NHÂN VIÊN BÁN HÀNG</b></p>
+			</a>
+			</div>
+		</div>
+	</div>
+
+
+
+	<div class="content1">
+		<h1>THEO DÕI CHÚNG TÔI TRÊN MẠNG XÃ HỘI</h1>
+		<div class="content1__social-list">
+			<a href=""><i class="fa fa-facebook fa-2x"></i></a>
+			<a href=""><i class="fa fa-instagram fa-2x"></i></a>
+			<a href=""><i class="fa fa-youtube fa-2x"></i></a>
+			<a href=""><i class="fab fa-tiktok fa-2x"></i></a>
+		</div>
+	</div>
+	<div class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md">
+					<i class="fas fa-truck fa-4x"></i><br><br>
+					<p><b>GIAO HÀNG TOÀN QUỐC<br>Bất kể giá trị đơn hàng</b></p>
+				</div>
+				<div class="col-md">
+					<i class="fas fa-box fa-4x"></i><br><br>
+					<p><b>ĐỔI HÀNG DỄ DÀNG<br>Trong vòng 3 ngày</b></p>
+				</div>
+				<div class="col-md">
+					<i class="fas fa-truck fa-4x"></i><br><br>
+					<p><b>HOTLINE HỖ TRỢ<br>0943.98.1257</b></p>
+				</div>
+			</div>
+			<div class="us">
+				<p><b>CÔNG TY TNHH HHK VIỆT NAM</b> tại Hà Nội</p>
+				<p><b>HOTLINE:</b> 09.43.98.1257</p>
+				<p><b>Địa chỉ:</b> Số 19, Nguyễn Trãi, Hà Nội</p>
+				<p><a href=""><img src="images/logo1.jpg"></a></p>
+			</div>
+		</div>
+	</div>
+	<script src="bootstrap/js/jquery.min.js"></script>
+	<script src="bootstrap/js/popper.min.js"></script>
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
